@@ -27,28 +27,3 @@ Import this sample into Eclipse using File -> Import -> Maven -> Existing Maven 
 
 Create a Liberty server definition:
 
-In the Servers view right-click -> New -> Server
-Select IBM -> WebSphere Application Server Liberty
-Choose Install from an archive or a repository
-Enter a destination path (/Users/username/liberty)
-Choose WAS Liberty with Java EE 7 Web Profile
-Continue the wizard with default options to Finish
-Run your application locally on Liberty:
-Right click on the JavaHelloWorldApp sample and select Run As -> Run on Server option
-Find and select the localhost Liberty server and press Finish
-In a few seconds, your application should be running at http://localhost:9080/JavaHelloWorldApp/
-Create a Bluemix server definition:
-In the Servers view, right-click -> New -> Server
-Select IBM -> IBM Bluemix and follow the steps in the wizard.\
-Enter your credentials and click Next
-Select your org and space and click Finish
-Run your application on Bluemix:
-Right click on the JavaHelloWorldApp sample and select Run As -> Run on Server option
-Find and select the IBM Bluemix and press Finish
-A wizard will guide you with the deployment options. Be sure to choose a unique Name for your application
-In a few minutes, your application should be running at the URL you chose.
-Next Step
-Ready to learn how to interact with a database? Check out this Sample and tutorial to help you get started with a Java EE app, REST API and a database.
-
-Liberty App Accelerator
-For help generating other Liberty samples checkout the Liberty App Accelerator at wasdev.net/accelerate
